@@ -1,12 +1,25 @@
+*{
+    box-sizing: border-box;
+}
+
+
 body{
     font-family: 'Lato', sans-serif;
+    padding: 0;
+    margin: 0;
+    
     /* font-family: 'Roboto Slab', serif */
+}
+
+.header{
+    padding: 15px 0;
 }
 
 .navigation{
     list-style: none;
     font-family: 'Lato', sans-serif;
     padding: 0;
+    margin: 0;
 }
 
 .navigation-link{
@@ -35,6 +48,135 @@ body{
 
 }
 
-.button-icon{
+.button-icon, .button-price{
     margin-right: 10px;
 }
+
+.button-price.light{
+    color: #fff;
+}
+
+.button-icon:last-child{
+    margin-right: 0;
+    margin-left: 10px;
+}
+.slide{
+    padding: 90px 0 110px 0;
+}
+
+.slide-1{
+    background: #B4D1E0 url('../img/slide-image-1.png') no-repeat top right 30%;
+}
+
+.label{
+    background-color: #3DC47E;
+    border-radius: 3px;
+    padding: 5px 12px;
+    font-weight: 800;
+    color: #fff;
+    font-size: 12px;
+    line-height: 15px;
+}
+
+.slide-title{
+    color: #262D33;
+    font-family: 'Roboto Slab', serif;
+    font-weight: bold;
+    font-size: 55px;
+    line-height: 70px;
+    margin: 20px 0 15px 0;
+}
+
+.slide-description{
+    font-size: 18px;
+    line-height: 30px;
+    color: #4b5157;
+    max-width: 335px;
+    margin-bottom: 40px;
+}
+
+.slider{
+    position: relative;
+}
+
+.slider-nav{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    transform: translateY(-50%);
+}
+
+.slider-button{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.card{
+    min-height: 370px;
+    border-radius: 10px;
+    padding: 60px 46px 80px 46px;
+}
+
+.card-1{
+    background: #e3e2e3 url('../img/card-image-1.jpg') no-repeat top right;
+    background-size: cover;
+}
+
+.card-2{
+    color: #fff;
+    background: #A9BDCC url('../img/card-image-2.jpg') no-repeat top right;
+    background-size: cover;
+}
+
+.card-3{
+    padding-top: 35px;
+    background: #CCD5E6 url('../img/card-image-3.png') no-repeat top right 20%;
+    background-size: auto;
+}
+
+.card-4{
+    padding-top: 35px;
+    padding-left: 25px;
+    background: #FF4F52 url('../img/card-image-4.png') no-repeat top right;
+    background-size: auto;
+}
+
+.card-price{
+    /* font-family: 'Lato', sans-serif; */
+    color: #fff;
+    font-weight: 900;
+}
+
+.card-title{
+    font-family: 'Roboto Slab', serif;
+    font-size: 25px;
+    max-width: 220px;
+    line-height: 30px;
+    color: #262D33;
+    margin: 0;
+}
+
+.card-title.large{
+    max-width: 420px;
+    font-size: 40px;
+    line-height: 50px;
+    margin: 20px 0;
+}
+
+.card-text{
+    max-width: 176px;
+    color: #4b5157;
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+
+.card-text.large{
+    max-width: 320px;
+}
+
+.text-light{
+    color: #fff;
+}
+
